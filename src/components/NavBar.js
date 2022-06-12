@@ -1,3 +1,4 @@
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 function NavBar() {
     return (
@@ -22,7 +23,7 @@ function NavBar() {
                                 <NavLink className="nav-link" to="/contact">Contact</NavLink>
                             </li>
                         </ul>
-                        <form className="d-flex" role="search" action="http://www.google.com/" method="get">
+                        <form className="d-flex" role="search" action="https://www.google.com/" method="get">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                             <button className="btn btn-primary" type="submit"><i className="fa-solid fa-magnifying-glass"></i></button>
                         </form>
